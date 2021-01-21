@@ -13,6 +13,9 @@
 </head>
 <body>
     <form asp-controller-"Validate" asp-action-"Raise_Validate" method="post"></form>
+    <form asp-controller-"Delete" asp-action-"Raise_Delete" method="delete"></form>
+    <form asp-controller-"Register" asp-action-"Raise_Register" method="post"></form>
+    <form asp-controller-"Update User" asp-action-"Raise_Update_User" method="post"></form>
     <p>
         <a asp-action="Create">Create New</a>
     </p>
@@ -60,9 +63,9 @@
         </tbody>
     </table>
     <div class="row">
-        <div class="card bg-info mb-3">
-            <div class="col-sm-12">
-                <div class="card-header bg-secondary text-black">Behold my dataset! Huzzah!</div>
+        <div class="col-sm-12">
+            <div class="card bg-dark mb-3">
+                <div class="card-header bg-dark text-black">Behold my dataset! Huzzah!</div>
             </div>
 
         </div>
