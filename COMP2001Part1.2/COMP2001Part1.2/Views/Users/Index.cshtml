@@ -12,50 +12,72 @@
     <title>Index</title>
 </head>
 <body>
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.UserFirstName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.UserSecondName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.UserEmail)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CurrentPassword)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.UserFirstName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.UserSecondName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.UserEmail)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CurrentPassword)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.UserId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.UserId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.UserId">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+    <form asp-controller-"Validate" asp-action-"Raise_Validate" method="post"></form>
+    <p>
+        <a asp-action="Create">Create New</a>
+    </p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.UserFirstName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.UserSecondName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.UserEmail)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CurrentPassword)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UserFirstName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UserSecondName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UserEmail)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CurrentPassword)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.UserId">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.UserId">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.UserId">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <div class="row">
+        <div class="card bg-info mb-3">
+            <div class="col-sm-12">
+                <div class="card-header bg-secondary text-black">Behold my dataset! Huzzah!</div>
+            </div>
+
+        </div>
+    </div>
+    @{ 
+        if((ViewBag.Success !=null)&& (int) ViewBag.Success !=0)
+        {
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="card bg-success mb-3">
+                        <div class="card-header bg-success text-white">Request Success</div>
+                    </div>
+                </div>
+            </div>
+        }
+    }
 </body>
 </html>

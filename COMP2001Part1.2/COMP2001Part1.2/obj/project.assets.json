@@ -8591,11 +8591,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alex\\source\\repos\\COMP2001Part1.2\\COMP2001Part1.2\\COMP2001Part1.2.csproj",
+      "projectUniqueName": "D:\\Github\\COMP2001\\COMP2001Part1.2\\COMP2001Part1.2\\COMP2001Part1.2.csproj",
       "projectName": "COMP2001Part1.2",
-      "projectPath": "C:\\Users\\Alex\\source\\repos\\COMP2001Part1.2\\COMP2001Part1.2\\COMP2001Part1.2.csproj",
+      "projectPath": "D:\\Github\\COMP2001\\COMP2001Part1.2\\COMP2001Part1.2\\COMP2001Part1.2.csproj",
       "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alex\\source\\repos\\COMP2001Part1.2\\COMP2001Part1.2\\obj\\",
+      "outputPath": "D:\\Github\\COMP2001\\COMP2001Part1.2\\COMP2001Part1.2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
