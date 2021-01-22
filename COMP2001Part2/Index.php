@@ -18,8 +18,8 @@ and is wrapped around the whole page content, except for the footer in this exam
 
     <!-- Header -->
     <header class="w3-container w3-center w3-padding-32">
-        <h1><b>MY BLOG</b></h1>
-        <p>Welcome to the blog of <span class="w3-tag">unknown</span></p>
+        <h1><b>THE INDEX</b></h1>
+        <p>Welcome to the Index Page for <span class="w3-tag">COMP2001 Part 2</span></p>
     </header>
 
     <!-- Grid -->
@@ -30,21 +30,12 @@ and is wrapped around the whole page content, except for the footer in this exam
             <!-- Blog entry -->
             <div class="w3-card-4 w3-margin w3-white">
                 <div class="w3-container">
-                    <h3><b>TITLE HEADING</b></h3>
-                    <h5>Title description, <span class="w3-opacity">April 7, 2014</span></h5>
+                    <h3><b>The aim of this project</b></h3>
                 </div>
 
                 <div class="w3-container">
-                    <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
-                        tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-                    <div class="w3-row">
-                        <div class="w3-col m8 s12">
-                            <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
-                        </div>
-                        <div class="w3-col m4 w3-hide-small">
-                            <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-tag">0</span></span></p>
-                        </div>
-                    </div>
+                    <p>The aim of this project is to create a PHP application that features both an Index Page and a Data Page that are linked together. The Data Page will present
+                    data from a chosen csv file, in this case the csv file contains information on Plymouth Libraries, and present it in a human readable manner.</p>
                 </div>
             </div>
             <hr>
@@ -52,21 +43,11 @@ and is wrapped around the whole page content, except for the footer in this exam
             <!-- Blog entry -->
             <div class="w3-card-4 w3-margin w3-white">
                 <div class="w3-container">
-                    <h3><b>BLOG ENTRY</b></h3>
-                    <h5>Title description, <span class="w3-opacity">April 2, 2014</span></h5>
+                    <h3><b>How will the Project be completed?</b></h3>
                 </div>
 
                 <div class="w3-container">
-                    <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
-                        tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-                    <div class="w3-row">
-                        <div class="w3-col m8 s12">
-                            <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
-                        </div>
-                        <div class="w3-col m4 w3-hide-small">
-                            <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-badge">2</span></span></p>
-                        </div>
-                    </div>
+                    <p>The Project will be completed using PHPStorm to create the web pages and AMPPS to run it. Version control will be completed with GitHub and GitHub Desktop.</p>
                 </div>
             </div>
             <!-- END BLOG ENTRIES -->
@@ -77,51 +58,22 @@ and is wrapped around the whole page content, except for the footer in this exam
             <!-- About Card -->
             <div class="w3-card w3-margin w3-margin-top">
                 <div class="w3-container w3-white">
-                    <h4><b>My Name</b></h4>
-                    <p>Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.</p>
+                    <h4><b>Created by Alex Denman</b></h4>
+                    <p>I don't think anyone would want to claim this as their own but just in case, this is my project.</p>
                 </div>
             </div><hr>
 
             <!-- Posts -->
             <div class="w3-card w3-margin">
                 <div class="w3-container w3-padding">
-                    <h4>Popular Posts</h4>
+                    <h4><b>Links</b></h4>
                 </div>
-                <ul class="w3-ul w3-hoverable w3-white">
-                    <li class="w3-padding-16">
-                        <span class="w3-large">Lorem</span><br>
-                        <span>Sed mattis nunc</span>
-                    </li>
-                    <li class="w3-padding-16">
-                        <span class="w3-large">Ipsum</span><br>
-                        <span>Praes tinci sed</span>
-                    </li>
-                    <li class="w3-padding-16">
-                        <span class="w3-large">Dorum</span><br>
-                        <span>Ultricies congue</span>
-                    </li>
-                    <li class="w3-padding-16 w3-hide-medium w3-hide-small">
-                        <span class="w3-large">Mingsum</span><br>
-                        <span>Lorem ipsum dipsum</span>
-                    </li>
-                </ul>
+                <button class="w3-button w3-black w3-disabled w3-padding-large w3-margin-bottom">Index Page</button>
+                <button class="w3-button w3-black w3-padding-large w3-margin-bottom">Data Page</button>
             </div>
             <hr>
 
-            <!-- Labels / tags -->
-            <div class="w3-card w3-margin">
-                <div class="w3-container w3-padding">
-                    <h4>Tags</h4>
-                </div>
-                <div class="w3-container w3-white">
-                    <p><span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">London</span>
-                        <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">IKEA</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">NORWAY</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">DIY</span>
-                        <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Baby</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Family</span>
-                        <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Clothing</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Shopping</span>
-                        <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Sports</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Games</span>
-                    </p>
-                </div>
-            </div>
+
 
             <!-- END Introduction Menu -->
         </div>
@@ -134,8 +86,6 @@ and is wrapped around the whole page content, except for the footer in this exam
 
 <!-- Footer -->
 <footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
-    <button class="w3-button w3-black w3-disabled w3-padding-large w3-margin-bottom">Previous</button>
-    <button class="w3-button w3-black w3-padding-large w3-margin-bottom">Next »</button>
     <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
 </footer>
 
