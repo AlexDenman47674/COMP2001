@@ -23,23 +23,36 @@ and is wrapped around the whole page content, except for the footer in this exam
     </header>
 
     <!-- Grid -->
-    <div class="w3-row">
+    <div>
 
         <!-- Blog entries -->
-        <div class="w3-col l8 s12">
+        <div>
             <!-- Blog entry -->
-            <div class="w3-card-4 w3-margin w3-white">
-                <div class="w3-container">
+            <div>
+                <div>
                     <h3><b>The Data</b></h3>
+                    <div style="overflow-x:auto;">
+                        <?php
+                        echo "<html><body><table>\n\n";
+                        $f = fopen("COMP2001LibraryInformation.csv", "r");
+                        while (($line = fgetcsv($f)) !== false) {
+                            echo "<tr>";
+                            foreach ($line as $cell) {
+                                echo "<td>" . htmlspecialchars($cell) . "</td>";
+                            }
+                            echo "</tr>\n";
+                        }
+                        fclose($f);
+                        echo "\n</table></body></html>";
+                        ?>
+                    </div>
                 </div>
 
-                <div class="w3-container">
-                    <p>V The data will go here V</p>
-                </div>
+
             </div>
             <hr>
 
-            <!-- Posts -->
+            <!-- Posts -->+
             <div class="w3-card w3-margin">
                 <div class="w3-container w3-padding">
                     <h4><b>Links</b></h4>
