@@ -70,7 +70,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                 </div>
                 <button class="w3-button w3-black w3-disabled w3-padding-large w3-margin-bottom">Index Page</button>
                 <button class="w3-button w3-black w3-padding-large w3-margin-bottom"><a href="Data.php">Data Page</a></button>
-                <button class="w3-button w3-black w3-padding-large w3-margin-bottom">Entity Page</button>
+                <button class="w3-button w3-black w3-padding-large w3-margin-bottom"><a href="Entity.php">Entity Page</a></button>
             </div>
             <hr>
 
