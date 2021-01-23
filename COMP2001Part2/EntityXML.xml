@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<RDF>
+    <Description>
+        <Name>Central Library</Name>
+        <Postcode>PL1 1HZ</Postcode>
+        <Website>https://www.plymouth.gov.uk/libraries/findlibraryandopeninghours/centrallibrary</Website>
+    </Description>
+
+    <Description>
+        <Name>Crownhill Library</Name>
+        <Postcode>PL6 5AN</Postcode>
+        <Website>https://www.plymouth.gov.uk/libraries/findlibraryandopeninghours/crownhilllibrary</Website>
+    </Description>
+</RDF>

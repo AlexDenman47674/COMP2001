@@ -32,7 +32,8 @@ and is wrapped around the whole page content, except for the footer in this exam
                 <div>
                     <h3><b>The Entity</b></h3>
                     <div>
-
+                        <!-- Entity is Library: Library Name, Postcode and Website -->
+                        <p><a href="EntityXML.xml">View Entities</a></p>
                     </div>
                 </div>
 
